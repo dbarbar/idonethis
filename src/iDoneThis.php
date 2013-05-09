@@ -31,7 +31,7 @@ class iDoneThis {
             $to = 'today@idonethis.com';
         }
         else {
-            $to = str_replace(' ', '-', strtolower($this->team) . '@team.idonethis.com';
+            $to = str_replace(' ', '-', strtolower($this->team)) . '@team.idonethis.com';
         }
 
         $subject = 'Re: '. $this->team . ' digest for ' . date("F j");
