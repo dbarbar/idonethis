@@ -2,6 +2,14 @@
 /**
  * @file
  * A class for sending iDoneThis emails.
+ *
+ * Include this file, and use like this:
+ * $idt = new iDoneThis('email', 'team name');
+ * if ($idt->send('I done this')); {
+ *      // mail was accepted for delivery
+ * else {
+ *      // mail did not send
+ * }
  */
 
 class iDoneThis {
